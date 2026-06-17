@@ -65,6 +65,30 @@ The plugin will then:
 5. Optionally ask for supplementary prompt, quality, and size preferences
 6. Generate the KV poster and return the image URLs
 
+#### Method 2: Natural Language Conversation
+
+You don't have to remember the exact command — just talk to Claude naturally! The plugin will automatically recognize your intent and guide you through the process.
+
+**Examples:**
+
+```
+Help me generate a KV poster for [activity description]
+```
+
+```
+Create a key visual for our [event name]
+```
+
+```
+帮我生成一张【活动描述】的KV
+```
+
+```
+制作一张【活动名称】的主视觉海报
+```
+
+Whenever your request mentions generating a KV, key visual poster, or activity poster, the plugin will kick in and walk you through the steps — no slash command needed.
+
 ### Configuration
 
 The plugin stores your API credentials in `${CLAUDE_PLUGIN_DATA}/auth.json`:
@@ -172,6 +196,30 @@ claude plugin install generator-kv@wolf521/SoloMktKV-ClaudeCode
 4. 引导填写活动详情（主题、时间、地点）
 5. 可选填写补充提示词、图片质量与尺寸偏好
 6. 生成 KV 海报并返回图片链接
+
+#### 方式二：自然语言对话
+
+你无需记住精确的命令格式 — 直接用自然语言和 Claude 对话即可！插件会自动识别你的意图并引导你完成生成。
+
+**示例：**
+
+```
+帮我生成一张【活动描述】的KV
+```
+
+```
+为我们的【活动名称】制作一张主视觉海报
+```
+
+```
+Help me generate a KV poster for [activity description]
+```
+
+```
+Create a key visual for our [event name]
+```
+
+只要你的请求中提到了生成 KV、主视觉海报或活动海报，插件就会自动启动并引导你完成每一步 — 无需斜杠命令。
 
 ### 配置说明
 

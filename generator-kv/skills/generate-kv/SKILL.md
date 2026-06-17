@@ -137,8 +137,11 @@ jq -n \
 curl -s -X POST "${BASE_URL}/solomkt_kv/api/v1/generatekV" \
   -H "x-api-key: ${API_KEY}" \
   -H "Content-Type: application/json" \
+  --max-time 600 \
   -d @/tmp/generate_kv_payload.json
 ```
+
+> Note: `--max-time 600` sets a 10-minute timeout for the generation request, as KV poster generation may take several minutes.
 
 Important: The `posterSize` parameter must be passed as a JSON string representation of an array, e.g., `'["16:9"]'` (a string that looks like a JSON array, not an actual JSON array). In jq, use `--arg posterSize '["16:9"]'` to pass it as a string.
 
