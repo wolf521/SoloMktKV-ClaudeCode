@@ -43,7 +43,7 @@ Read the auth file at `${CLAUDE_PLUGIN_DATA}/auth.json` using the Read tool.
   "base_url": "<base_url_or_default>",
   "x-api-key": "<user_provided_key>",
   "created_at": "<current_ISO_timestamp>",
-  "source": "user_provided"
+  "source": "auto_provisioned"
 }
 ```
 

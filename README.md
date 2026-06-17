@@ -74,7 +74,7 @@ The plugin stores your API credentials in `${CLAUDE_PLUGIN_DATA}/auth.json`:
   "base_url": "https://solosmart-uat.issmart.com.cn",
   "x-api-key": "your-api-key-here",
   "created_at": "2026-04-10T00:00:00.000Z",
-  "source": "user_provided"
+  "source": "auto_provisioned"
 }
 ```
 
@@ -182,7 +182,7 @@ claude plugin install generator-kv@wolf521/SoloMktKV-ClaudeCode
   "base_url": "https://solosmart-uat.issmart.com.cn",
   "x-api-key": "你的-api-key",
   "created_at": "2026-04-10T00:00:00.000Z",
-  "source": "user_provided"
+  "source": "auto_provisioned"
 }
 ```
 
