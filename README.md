@@ -48,13 +48,13 @@ claude plugin install generator-kv@wolf521/SoloMktKV-ClaudeCode
 ### Usage
 
 ```
-/generate-kv <activity_name>
+/generator-kv:generate-kv <activity_name>
 ```
 
 **Example:**
 
 ```
-/generate-kv 第四届中国国际供应链促进博览会
+/generator-kv:generate-kv 第四届中国国际供应链促进博览会
 ```
 
 The plugin will then:
@@ -78,7 +78,7 @@ The plugin stores your API credentials in `${CLAUDE_PLUGIN_DATA}/auth.json`:
 }
 ```
 
-To manually configure or update your API key, edit this file or simply run `/generate-kv` — the plugin will detect missing credentials and guide you through setup.
+To manually configure or update your API key, edit this file or simply run `/generator-kv:generate-kv` — the plugin will detect missing credentials and guide you through setup.
 
 ### Uninstallation
 
@@ -156,13 +156,13 @@ claude plugin install generator-kv@wolf521/SoloMktKV-ClaudeCode
 ### 使用方式
 
 ```
-/generate-kv <活动名称>
+/generator-kv:generate-kv <活动名称>
 ```
 
 **示例：**
 
 ```
-/generate-kv 第四届中国国际供应链促进博览会
+/generator-kv:generate-kv 第四届中国国际供应链促进博览会
 ```
 
 插件将按以下流程运行：
@@ -186,7 +186,7 @@ claude plugin install generator-kv@wolf521/SoloMktKV-ClaudeCode
 }
 ```
 
-如需手动配置或更新 API Key，可直接编辑此文件，或直接运行 `/generate-kv` —— 插件会自动检测缺失的凭证并引导完成配置。
+如需手动配置或更新 API Key，可直接编辑此文件，或直接运行 `/generator-kv:generate-kv` —— 插件会自动检测缺失的凭证并引导完成配置。
 
 ### 卸载
 
