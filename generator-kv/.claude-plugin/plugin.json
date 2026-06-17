@@ -9,6 +9,6 @@
   "homepage": "https://github.com/wolf521/SoloMktKV-ClaudeCode",
   "category": "design",
   "tags": ["kv", "poster", "image-generation", "marketing", "activity"],
-  "commands": ["./commands/generate-kv.md"],
-  "skills": ["./skills/generate-kv"]
+  "commands": ["../commands/generate-kv.md"],
+  "skills": ["../skills/generate-kv"]
 }
